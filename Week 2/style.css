@@ -3,19 +3,22 @@ body {
   }
   
 #mh1 {
-    color:red; 
+    color:rgb(255, 0, 0); 
 }
 
 #mh2 {
-    color:green; 
+    color:hsl(green, 100, 100); 
 }
 
 
 #mh3 {
-    color:yellow; 
+    color:greenyellow; 
 }
 
 
 #mh4 {
-    color:blue; 
+    color:#0000FF; 
+}
+#mydiv {
+  color: black;
 }
