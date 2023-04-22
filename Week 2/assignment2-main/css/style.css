@@ -141,8 +141,7 @@ button{
     align-items: center;
 }
 .T{
-    font-weight: light;
-    font-style: italic;
+    font-weight: 400px;
     background-color: #E5E7EB;
     padding: 5% 14%;
 }
