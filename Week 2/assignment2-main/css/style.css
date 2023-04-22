@@ -1,0 +1,230 @@
+@import url("./other.css");
+*{
+    font-family: 'roboto';
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: light;
+}
+:root {
+    /* colors */
+    --dark: #1f2937;
+    --white: #f9faf8;
+    --white-secondary: #e5e7eb;
+    --blue: #3882fb;
+    /* font-size */
+    --large: 48px;
+    --medium: 36px;
+    --small: 24px;
+    --smaller: 18px;
+}
+
+header{
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--dark);
+    color: var(--white);
+    
+}
+nav{
+    width: 80%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 35px;
+    font-size: 48px;
+    margin-left: 9%;
+    width: 12rem;
+    height: 8rem;
+}
+nav ul{
+    align-items: baseline;
+    list-style: none;
+    align-content: center;
+    margin: 15px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    width: 109px;
+    color: var(--white-secondary);
+    background-color: var(--blue);
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #3882fb;
+    border-radius: 5%;
+    font-size: 18px;
+    margin: 35px;
+   
+}
+.main_section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.title{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.title_img{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.main_section img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+h1{
+    font-size: 48px;
+    color: var(--white);
+}
+h2{
+    font-size: 38px;
+    text-align: center;
+    margin: 60px;
+}
+p{
+    margin-top: 15px;
+    width: 80%;
+    font-size: 18px;
+    color: var(--white-secondary);
+}
+button{
+    padding: 5px;
+    background-color: var(--blue);
+    color: var(--white-secondary);
+    margin-top: 25px;
+    font-size: 20px;
+}
+.container_img{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container_img img{
+    border-radius: 5%;
+    border: 1px solid var(--blue) ;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+.container_img p{
+    text-align: center;
+    color: var(--dark);
+}
+.card{
+    margin: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.T{
+    font-weight: light;
+    font-style: italic;
+    background-color: #E5E7EB;
+    padding: 5% 14%;
+}
+.main_text{
+    font-size: 30px;
+    margin: auto;
+    color: var(--dark);
+}
+aside{
+    background-color: #3882f6;
+    margin: 4% 10%;
+    border-radius: 5px;
+    padding: 2% 5%;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 5px 5px black
+}
+aside div{
+    margin-top: 21px;
+    width: 100%;
+    height: 130px;
+    margin-bottom: -30px;
+}
+aside a button{
+    width: 115px;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.footer-links {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 12px;
+    padding: 35px 0;
+}
+    
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+    
+.footer-container ul {
+    margin: 0 auto;
+}
+    
+.footer-links li {
+    line-height: 2.8;
+}
+.footer-links h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer {
+    text-decoration: none;
+    background-color: var(--dark);
+    color: var(--white);
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+.card1{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card1 img{
+    width: 20rem;
+    height: 25rem;
+}
+
