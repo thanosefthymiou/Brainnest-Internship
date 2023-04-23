@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Homepage</h1>
+    <a href=”https://theuselessweb.com/”>click me</a>
+    <a href="./about.html">About</a>
+    <script src="index.js"></script>
+</body>
+<script>
+const paragraph = document.createElement('p');
+paragraph.textContent = "Hey I'm red!";
+paragraph.style.color = 'red';
+document.body.appendChild(paragraph);
+
+
+
+
+const heading = document.createElement('h3');
+heading.textContent = "Hey I'm blue!";
+heading.style.color = 'blue';
+document.body.appendChild(heading);
+
+
+
+const div = document.createElement("div");
+div.style.border = "2px solid black";
+div.style.backgroundColor = "pink";
+
+const h1 = document.createElement("h1");
+h1.textContent = "I'm in a div";
+div.appendChild(h1);
+document.body.appendChild(div);
+
+const p = document.createElement("p");
+p.textContent = "ME TOO!";
+div.appendChild(p);
+document.body.appendChild(div);
+
+</script>
+
+</html>
